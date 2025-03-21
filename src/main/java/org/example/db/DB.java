@@ -8,10 +8,6 @@ import java.sql.*;
 import java.util.Properties;
 
 public class DB {
-
-
-
-
     public static Connection conn = null;
 
     public static Connection getConnection() {
