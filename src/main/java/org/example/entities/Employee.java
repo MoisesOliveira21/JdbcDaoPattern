@@ -83,7 +83,7 @@ public class Employee implements Serializable {
         return Objects.hash(id);
     }
 
-    public Date getHireDate() {
+    public java.sql.Date getHireDate() {
         return hireDate;
     }
 
